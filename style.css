@@ -27,6 +27,7 @@
     width: 344px;
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
+    box-shadow: 0px 10px 40px 6px rgba(0,0,0,0.1);
 }
 .card-bg {
     height: 140px;
