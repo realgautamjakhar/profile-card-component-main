@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;800;900&display=swap');
+
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    background-image: url(./images/bg-pattern-top.svg), 
+    url(images/bg-pattern-bottom.svg);
+    background-color: hsl(185, 75%, 39%);
+    background-position: right 45vw bottom 45vh, 45vw 45vh;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 344px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+.card-bg {
+    height: 140px;
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-image: url(images/bg-pattern-card.svg);
+}
+
+.user-img {
+    border-radius: 50%;
+    width: 90px;
+    border: 5px solid white;
+    position: relative;
+    top: 90px;
+}
+
+.name {
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.name > h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.name span {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: rgb(112, 112, 112);
+}
+.name > h2 {
+    padding: .75rem;
+    margin: 0;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(112, 112, 112) ;
+}
+
+hr {
+    width: 80%;
+    border: none;
+    height: 1px;
+    background-color: hsl(0, 0%, 59%);
+}
+
+.stat {
+    display: flex;
+    padding: 1.2rem;
+    justify-content: space-around;
+}
+.stat p {
+    margin: 0;
+    color: rgb(112, 112, 112);
+    font-family: 'Red Hat Display', sans-serif;
+    letter-spacing: .1rem;
+    font-weight: 400;
+}
+.stat h2{
+    font-weight: 700;
+    margin: 0;
+    color: black;
+}
